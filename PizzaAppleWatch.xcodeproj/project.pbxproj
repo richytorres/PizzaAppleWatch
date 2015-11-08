@@ -21,6 +21,13 @@
 		343DB8E51BEFA25B000AD77F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DB8E41BEFA25B000AD77F /* NotificationController.swift */; };
 		343DB8E71BEFA25B000AD77F /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DB8E61BEFA25B000AD77F /* GlanceController.swift */; };
 		343DB8E91BEFA25B000AD77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343DB8E81BEFA25B000AD77F /* Assets.xcassets */; };
+		343DB8FB1BEFA4FD000AD77F /* pizzza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DB8FA1BEFA4FD000AD77F /* pizzza.swift */; settings = {ASSET_TAGS = (); }; };
+		343DB8FD1BEFA564000AD77F /* tampizzaInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DB8FC1BEFA564000AD77F /* tampizzaInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
+		343DB8FF1BEFAB89000AD77F /* masaInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DB8FE1BEFAB89000AD77F /* masaInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
+		343DB9011BEFAB9A000AD77F /* quesoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DB9001BEFAB9A000AD77F /* quesoInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
+		343DB9031BEFB115000AD77F /* ingredientessInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DB9021BEFB115000AD77F /* ingredientessInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
+		343DB9051BEFBD98000AD77F /* confirmarInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DB9041BEFBD98000AD77F /* confirmarInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
+		343DB9071BEFC3E1000AD77F /* confirmacionfinalInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DB9061BEFC3E1000AD77F /* confirmacionfinalInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +92,13 @@
 		343DB8E61BEFA25B000AD77F /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 		343DB8E81BEFA25B000AD77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		343DB8EA1BEFA25B000AD77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343DB8FA1BEFA4FD000AD77F /* pizzza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizzza.swift; sourceTree = "<group>"; };
+		343DB8FC1BEFA564000AD77F /* tampizzaInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tampizzaInterfaceController.swift; sourceTree = "<group>"; };
+		343DB8FE1BEFAB89000AD77F /* masaInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = masaInterfaceController.swift; sourceTree = "<group>"; };
+		343DB9001BEFAB9A000AD77F /* quesoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quesoInterfaceController.swift; sourceTree = "<group>"; };
+		343DB9021BEFB115000AD77F /* ingredientessInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ingredientessInterfaceController.swift; sourceTree = "<group>"; };
+		343DB9041BEFBD98000AD77F /* confirmarInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = confirmarInterfaceController.swift; sourceTree = "<group>"; };
+		343DB9061BEFC3E1000AD77F /* confirmacionfinalInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = confirmacionfinalInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +165,13 @@
 		343DB8DD1BEFA25B000AD77F /* PizzaAppleWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				343DB8FA1BEFA4FD000AD77F /* pizzza.swift */,
+				343DB8FC1BEFA564000AD77F /* tampizzaInterfaceController.swift */,
+				343DB8FE1BEFAB89000AD77F /* masaInterfaceController.swift */,
+				343DB9001BEFAB9A000AD77F /* quesoInterfaceController.swift */,
+				343DB9021BEFB115000AD77F /* ingredientessInterfaceController.swift */,
+				343DB9041BEFBD98000AD77F /* confirmarInterfaceController.swift */,
+				343DB9061BEFC3E1000AD77F /* confirmacionfinalInterfaceController.swift */,
 				343DB8E01BEFA25B000AD77F /* InterfaceController.swift */,
 				343DB8E21BEFA25B000AD77F /* ExtensionDelegate.swift */,
 				343DB8E41BEFA25B000AD77F /* NotificationController.swift */,
@@ -311,8 +332,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				343DB8E51BEFA25B000AD77F /* NotificationController.swift in Sources */,
+				343DB8FD1BEFA564000AD77F /* tampizzaInterfaceController.swift in Sources */,
+				343DB9031BEFB115000AD77F /* ingredientessInterfaceController.swift in Sources */,
+				343DB8FB1BEFA4FD000AD77F /* pizzza.swift in Sources */,
+				343DB9011BEFAB9A000AD77F /* quesoInterfaceController.swift in Sources */,
+				343DB9051BEFBD98000AD77F /* confirmarInterfaceController.swift in Sources */,
 				343DB8E31BEFA25B000AD77F /* ExtensionDelegate.swift in Sources */,
 				343DB8E11BEFA25B000AD77F /* InterfaceController.swift in Sources */,
+				343DB8FF1BEFAB89000AD77F /* masaInterfaceController.swift in Sources */,
+				343DB9071BEFC3E1000AD77F /* confirmacionfinalInterfaceController.swift in Sources */,
 				343DB8E71BEFA25B000AD77F /* GlanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,6 +572,7 @@
 				343DB8EF1BEFA25B000AD77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		343DB8F11BEFA25B000AD77F /* Build configuration list for PBXNativeTarget "PizzaAppleWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +581,7 @@
 				343DB8F31BEFA25B000AD77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		343DB8F51BEFA25B000AD77F /* Build configuration list for PBXNativeTarget "PizzaAppleWatch" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +590,7 @@
 				343DB8F71BEFA25B000AD77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
